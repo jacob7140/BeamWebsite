@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: #222;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: gray;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  margin-left: -50px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block; 
+  margin-left: 5px; 
+  padding: 25px;
+  margin-top: 5px;
+}
+
+nav a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: rgb(88, 77, 77);
+}
