@@ -1,4 +1,43 @@
 h1 {
-    color: white;
+    color: black;
     text-align: center;
 }
+
+.navbar-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  main::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  main nav {
+    float: right;
+  }
+  
+  main nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  main nav li {
+    display: inline-block; 
+    margin-left: 5px; 
+    padding: 25px;
+    margin-top: 5px;
+  }
+  
+  main nav a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  main nav li:hover {
+    background: rgb(88, 77, 77);
+  }

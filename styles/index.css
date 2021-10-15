@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #222;
+  background: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 300;
 }
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background: gray;
+  background: rgb(65, 65, 65);
 }
 
 header::after {
@@ -55,7 +55,7 @@ nav li:hover {
 }
 
 footer {
-  background: gray;
+  background: rgb(65, 65, 65);;
   bottom: 0;
   position: fixed;
   width: 100%;
